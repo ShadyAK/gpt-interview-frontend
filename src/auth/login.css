@@ -1,0 +1,72 @@
+/* Style for the container of the login form */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login h2 {
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    font-size:xx-large;
+    font-weight: 800;
+  }
+  
+  /* Style for the form element */
+  form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 60px 10px 30px rgba(196, 5, 5, 0.2);
+    align-items: center;
+    padding: 10rem;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: 1px solid #ccc;
+    border-width: 10px;
+    border-radius: 2rem;
+  }
+  
+  /* Style for the heading of the form */
+  form h2 {
+    margin-bottom: 1rem;
+    align-items: center;
+    width: min-content;
+    
+
+  }
+  
+  /* Style for the label of the form input */
+  form label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  /* Style for the form input fields */
+  form input {
+    padding: 0.7rem;
+    margin-bottom: 1rem;
+    width: 150%;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for the form submit button */
+  form button[type="submit"] {
+    padding: 0.5rem 1rem;
+    background-color: #0077ff;
+    color: #fff;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+  }
+  
+  /* Style for the form submit button on hover */
+  form button[type="submit"]:hover {
+    background-color: #0066cc;
+  }
+  
